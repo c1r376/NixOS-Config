@@ -176,6 +176,7 @@
 	audacity
 	blender
 	btop
+	cava
 	celluloid
 	firefox-wayland
 	gimp

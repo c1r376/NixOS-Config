@@ -183,6 +183,7 @@
 	google-chrome
 	gparted
 	handbrake
+	hblock
 	inkscape
 	kdenlive
 	kitty

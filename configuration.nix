@@ -195,6 +195,7 @@
 	neofetch
 	openssl
 	popcorntime
+	prismlauncher
 	protonup-ng
 	protonup-qt
 	qbittorrent

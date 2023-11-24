@@ -172,6 +172,7 @@
 	mako
 	waybar
 	
+	alacritty
 	antimicrox
 	audacity
 	blender

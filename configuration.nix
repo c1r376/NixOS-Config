@@ -33,15 +33,15 @@
   i18n.defaultLocale = "en_US.UTF-8";
 
   i18n.extraLocaleSettings = {
-    LC_ADDRESS = "es_US.UTF-8";
-    LC_IDENTIFICATION = "es_US.UTF-8";
-    LC_MEASUREMENT = "es_US.UTF-8";
-    LC_MONETARY = "es_US.UTF-8";
-    LC_NAME = "es_US.UTF-8";
-    LC_NUMERIC = "es_US.UTF-8";
-    LC_PAPER = "es_US.UTF-8";
-    LC_TELEPHONE = "es_US.UTF-8";
-    LC_TIME = "es_US.UTF-8";
+    LC_ADDRESS = "en_US.UTF-8";
+    LC_IDENTIFICATION = "en_US.UTF-8";
+    LC_MEASUREMENT = "en_US.UTF-8";
+    LC_MONETARY = "en_US.UTF-8";
+    LC_NAME = "en_US.UTF-8";
+    LC_NUMERIC = "en_US.UTF-8";
+    LC_PAPER = "en_US.UTF-8";
+    LC_TELEPHONE = "en_US.UTF-8";
+    LC_TIME = "en_PH.UTF-8";
   };
 
   # Configure keymap in X11
@@ -244,4 +244,10 @@
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "23.05"; # Did you read the comment?
 
+  # Automatic Garbage Collection
+  nix.gc = {
+		automatic = true;
+		dates = "weekly";
+		options = "--delete-older-than 7d";
+	};
 }

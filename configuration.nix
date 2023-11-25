@@ -190,12 +190,12 @@
 	inkscape
 	kdenlive
 	kitty
-	libreoffice
 	kodi
 	libreoffice
 	lutris
 	neofetch
 	openssl
+	opera
 	popcorntime
 	prismlauncher
 	protonup-ng

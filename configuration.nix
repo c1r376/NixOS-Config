@@ -184,6 +184,7 @@
 	github-desktop
 	google-chrome
 	gparted
+	grim
 	handbrake
 	hblock
 	inkscape
@@ -201,6 +202,7 @@
 	protonup-qt
 	qbittorrent
 	ranger
+	slurp
 	steam
 	steam-run
 	sublime

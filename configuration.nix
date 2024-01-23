@@ -44,6 +44,9 @@
     LC_TIME = "en_PH.UTF-8";
   };
 
+  # Configure flathub
+  services.flatpak.enable = true;
+
   # Configure keymap in X11
   services.xserver = {
     layout = "us";
